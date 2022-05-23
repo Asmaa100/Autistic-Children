@@ -1,0 +1,369 @@
+::selection {
+	color: #fff;
+	background: #96c0a6;
+}
+@font-face{
+  font-family: 'Amiri';
+  src:url(Amiri/Amiri-Regular.ttf);
+}
+
+@font-face{
+font-family: 'Markazi Text';
+  src:url(Markazi_Text/MarkaziText-Regular.ttf);
+}
+
+
+
+.navbar-default {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	background: transparent;
+	border: none;
+	padding: 10px 0;
+	color: #fff;
+	transition: .5s
+}
+
+.navbar-default {
+	margin-bottom: 0;
+}
+
+.navbar-brand {
+	font-size: 40px;
+	margin: 10px;
+	font-weight: bolder;
+}
+
+ul.nav.navbar-nav.navbar-right {
+	margin: 10px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.navbar-header>a {
+	color: white;
+}
+
+.color-b {
+	color: #70eea0e0;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	transition: .5s
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #70eea0e0;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #70eea0e0;
+}
+
+.dropdown-menu>li>a {
+	color: #70eea0e0;
+	font-size: large;
+	font-weight: initial;
+}
+
+.dropdown-menu>li>a:hover {
+	color: #70eea0e0;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+	background-color: #777
+}
+
+.navbar-nav>li>.dropdown-menu {
+	background-color: #777
+}
+
+
+/*end nav*/
+
+.h1,
+h1 {
+	font-size: 90px;
+}
+
+@media (min-width:360px) and (max-width: 500px) {
+	.h1,
+	h1 {
+		font-size: 50px;
+	}
+}
+
+
+/*start header*/
+
+.header {
+	background-image: url("../images/img2.jpg");
+	background-size: 100% 100%;
+	position: relative;
+	color: #fff;
+	margin-bottom: 30px
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .75);
+	display: flex;
+	align-items: center;
+	height: 100%
+}
+
+.intro-body a {
+	text-decoration: none
+}
+
+.intro-body .color {
+	color: #70eea0e0
+}
+
+span.price-a {
+	padding: 1rem 1.5rem;
+	border-radius: 50px;
+	text-transform: capitalize;
+	letter-spacing: 0.030em;
+	font-size: large;
+	background-color: #70eea0e0;
+	color: #fff
+}
+
+/*end header*/
+
+
+/*start about*/
+
+.about {
+	margin-top: 60px;
+}
+
+.about h2 {
+	color: #61bc84e0;
+	text-shadow: 3px 3px 3px #d7d58a;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: italic;
+}
+
+p {
+	line-height: 1.7;
+	font-size: 19px;
+	color: #504c4c;
+}
+
+.about p,
+img {
+	margin-top: 30px
+}
+
+.about .container .child {
+	transition: all 1s;
+	border-radius: 10px;
+	border: 2px solid #ddd;
+	height: 200px
+}
+
+.about .container .child:hover {
+	transform: scale(1.1, 1.1);
+	transform: rotate3d(30deg);
+	box-shadow: 5px 5px 5px #2eca6a
+}
+
+
+/*end about */
+
+
+/*start reasons*/
+
+.reason {
+	margin-top: 40px;
+	padding-bottom: 30px;
+	transition: all 1s;
+	background-color: #f4eee5
+}
+
+.reason .child {
+	transition: all 1.5s;
+	height: 800px;
+}
+
+.reason .child:hover {
+	box-shadow: 5px 5px 5px #9aa447;
+	background-color: #96c0a6;
+	border-radius: 10px;
+	height: 800px;
+
+}
+
+.reason h2 {
+	color: #58916ee0;
+	font-weight: bold;
+	text-shadow: 3px 2px 3px #d7d58a;
+	font-family: italic;
+	font-size: 45px;
+}
+
+.reason img {
+	height: 250px;
+	border-radius: 10px
+}
+
+.reason .gin {
+	opacity: .4;
+}
+
+.reason h3 {
+	font-weight: bold;
+	font-family: 'Changa', sans-serif;
+  	font-family: 'Amiri', serif;
+  	font-size: 30px
+}
+
+.reason p {
+	line-height: 25px;
+	font-size: 18px;
+	font-family: 'Markazi Text', 
+	serif;	color: #494343;
+	text-align: center;
+}
+
+.reason span {
+	background-color: #777;
+	cursor: pointer;
+	padding: 5px;
+	color: #ddd;
+	border-radius: 10px
+}
+
+.reason .no,
+.reason .nou {
+	display: none;
+}
+
+.reason video {
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+footer {
+	background-color: black;
+	text-align: center;
+	padding: 20px;
+}
+
+
+/* footer social icons */
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left: 0 !important;
+	padding: 0;
+}
+
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+
+.social-network a.icoFacebook:hover {
+	background-color: #3B5998;
+}
+
+.social-network a.icoTwitter:hover {
+	background-color: #33ccff;
+}
+
+.social-network a.icoGoogle:hover {
+	background-color: #BD3518;
+}
+
+.social-network a.icoVimeo:hover {
+	background-color: #0590B8;
+}
+
+.social-network a.icoLinkedin:hover {
+	background-color: #007bb7;
+}
+
+.social-network a.icoRss:hover i,
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i,
+.social-network a.icoVimeo:hover i,
+.social-network a.icoLinkedin:hover i {
+	color: #fff;
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+	color: #44BCDD;
+}
+
+.social-circle li a {
+	display: inline-block;
+	position: relative;
+	margin: 0 auto 0 auto;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+}
+
+.social-circle li i {
+	margin: 0;
+	line-height: 50px;
+	text-align: center;
+}
+
+.social-circle li a:hover {
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.aligncenter span {
+	color: #70eea0e0
+}
+
+.credits span {
+	color: #70eea0e0
+}
+
+
+/*end footer*/
+
+
+

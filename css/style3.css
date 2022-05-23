@@ -1,0 +1,365 @@
+/*start nav*/
+
+@font-face{
+  font-family: 'Katibeh';
+  src:url(Katibeh/Katibeh-Regular.ttf);
+}
+
+
+.navbar-default {
+    width: 100%;
+    background: #777;
+    border-bottom: 3px solid #70eea0e0;
+    padding: 6px 0;
+    color: #fff;
+    transition: .5s;
+}
+
+.navbar-default {
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.navbar-header>a {
+    color: white;
+}
+
+.color-b {
+    color: #70eea0e0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    transition: .5s
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #70eea0e0;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #70eea0e0;
+}
+
+.dropdown-menu>li>a {
+    color: #70eea0e0;
+    font-size: large;
+    font-weight: initial;
+}
+
+.dropdown-menu>li>a:hover {
+    color: #70eea0e0;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    background-color: #777
+}
+
+.navbar-nav>li>.dropdown-menu {
+    background-color: #777
+}
+
+
+/*end nav */
+
+
+/*start header*/
+
+.header {
+    background-image: url("../images/IMG-20190410-WA0020.jpg");
+    background-size: 100% 100%;
+    position: relative;
+    color: #fff;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.intro-body a {
+    text-decoration: none
+}
+
+.intro-body .color {
+    color: #2eca6a
+}
+
+.header .est {
+    font-size: 100px;
+    color: #70eea0e0;
+    opacity: 1;
+}
+
+.header .about {
+    text-align: center;
+    color: white;
+    font-size: 24px
+}
+
+
+/*end header*/
+
+#ESTESHARAT {
+    background-color: #f4eee5
+}
+
+#ESTESHARAT h3 {
+    text-align: center;
+    background-color: #96c0a6;
+    font-size: 70px;
+    margin-bottom: 0px;
+    padding: 10px;
+    margin-top: 50px
+}
+
+#ESTESHARAT h4 {
+    font-size: 40px;
+    background-image: linear-gradient(45deg, rgb(225, 210, 213), rgb(219, 211, 202), rgb(229, 225, 217));
+    text-align: right;
+    border-bottom: 2px solid rgba(60, 118, 61, 0.82);
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 15px;
+    color: #a94442;
+    text-decoration: none;
+}
+
+a {
+    color: teal;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+#main h2 {
+    font-size: 60px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    background-color: #d3c6b0;
+}
+
+.este4ara {
+    text-align: right;
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 0;
+    margin-left: 15;
+}
+
+#main {
+    background-color: #739d83;
+    border-radius: 4px;
+    margin: 40px auto;
+}
+
+.glyphicon-share-alt {
+    color: white;
+    margin-left: 85%;
+    font-size: 40px;
+    margin-top: -15px;
+    display: inline;
+}
+
+.glyphicon-share-alt:hover {
+    color: #fff;
+}
+
+#answer1,
+#answer2,
+#answer3,
+#answer4,
+#answer5,
+#answer6,
+#answer7,
+#answer8,
+#answer9,
+#answer10,
+#answer11,
+#answer12,
+#answer13,
+#answer14,
+#answer15 {
+    display: none;
+}
+
+#ESTESHARAT {
+    padding-bottom: 40px
+}
+
+span .colour {
+    font-weight: bolder;
+}
+
+
+/*start place*/
+
+#doctors {
+    background-color: rgba(221, 229, 218, 0.39);
+}
+
+.doctor1 {
+    border-bottom: 2px solid #799d86;
+    ;
+}
+
+#doctors h2 {
+    text-align: right;
+    font-size: 45px;
+    margin-right: 10px;
+}
+
+#doctors img {
+    float: right;
+    border-radius: 50%;
+}
+
+#doctors h3 {
+    margin-right: 10px;
+    font-size: 25px;
+    text-align: right;
+}
+
+#doctors p {
+    margin-right: 100px
+}
+
+.details {
+    margin-right: 15%;
+}
+
+.details span {
+    font-weight: bolder;
+}
+
+#center span {
+    text-align: right;
+}
+
+span.glyphicon.glyphicon-map-marker {
+    float: right;
+}
+
+span.glyphicon.glyphicon-time {
+    float: right;
+}
+
+span.glyphicon.glyphicon-usd {
+    float: right;
+}
+
+span.glyphicon.glyphicon-phone-alt {
+    float: right;
+}
+
+
+/*start madicen*/
+
+#medican {
+    background-color: #f4eee5;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+@media (min-width:360px) and (max-width: 500px) {
+    #medican {
+        padding-left: 30px
+    }
+}
+
+#medican h2 {
+    text-align: center;
+    color: #799d86;
+    text-shadow: 3px 2px 3px #d7d58a;
+    margin-top: 0;
+    font-size: 50px;
+}
+
+#medican img {
+    /* vertical-align: middle;*/
+    height: 450px;
+    border-radius: 10%;
+    width: 100%;
+}
+
+.col-md-4 {
+    text-align: center;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 3s;
+    height: 500px;
+    margin-bottom: 50px;
+    border-radius: 10%
+}
+
+.col-md-4:hover {
+    transform: rotateY(180deg);
+}
+
+div.theMedican>div>div>div {
+    position: absolute;
+    background-color: rgba(112, 238, 160, 0.34);
+    height: 450px;
+    border-radius: 10%;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.img {
+    /*z-index: 7;*/
+    backface-visibility: hidden;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+#medican p {
+    padding-right: 10px;
+}
+
+h4.text-center {
+    font-size: 50px;
+    color: #799d86;
+    text-shadow: 3px 2px 3px #d7d58a;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+@media (min-width:360px) and (max-width: 500px) {
+    .col-md-4,
+    div.theMedican>div>div>div,
+    #medican img {
+        height: 750px;
+    }
+}
